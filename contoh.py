@@ -1,9 +1,9 @@
-import random
-soal = {"Indonesia":"Jakarta","Singapura":"Singapura"}
-negara = list(random.choice(soal.key()))
-print("Apa nama Ibu Kota dari Negara" + negara)
-jawab = input("jawaban: ")
-if jawab == str(soal.get(negara)):
-	print("Benar!")
-else:
-	print("Salah!")
+flag = 1
+
+while (flag):
+	nama = input("Masukan nama: ")
+	if nama == "Python":
+		print ("Nama saya Canda"),
+		print ("Goodbye Canda")
+		break
+	print ("Nama saya" , nama)
